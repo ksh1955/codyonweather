@@ -9,18 +9,21 @@
         <item>@drawable/cody6</item>
         <item>@drawable/cody7</item>
         <item>@drawable/cody8</item>
+        <item>@drawable/cody9</item>
+        <item>@drawable/cody10</item>
     </integer-array>
 
     <string-array name="content">
-        <item>~5ºC</item>
-        <item>6~9ºC</item>
-        <item>10~11ºC</item>
-        <item>12~16ºC</item>
-        <item>17~19ºC</item>
-        <item>20~23ºC</item>
-        <item>24~26ºC</item>
-        <item>27~30ºC</item>
+        <item>~-2ºC</item>
+        <item>-1~2ºC</item>
+        <item>3~6ºC</item>
+        <item>7~9ºC</item>
+        <item>10~13ºC</item>
+        <item>14~18ºC</item>
+        <item>19~22ºC</item>
+        <item>23~27ºC</item>
+        <item>28~31ºC</item>
+        <item>32~35ºC</item>
     </string-array>
-
 
 </resources>

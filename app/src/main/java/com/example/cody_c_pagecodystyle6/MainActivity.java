@@ -3,7 +3,9 @@ package com.example.cody_c_pagecodystyle6;
 import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.AdapterView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 
@@ -18,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //setContentView(R.layout.item_custom);
 
         adapter = new CustomAdapter();
         listView = (ListView) findViewById(R.id.listView);
@@ -25,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setData();
 
         listView.setAdapter(adapter);
+
 
 
     }
@@ -42,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
             dto.setContent(contents[i]);
 
             adapter.addItem(dto);
+
+
         }
     }
 }
